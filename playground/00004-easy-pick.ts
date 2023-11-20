@@ -31,6 +31,9 @@
 
 /* _____________ Your Code Here _____________ */
 
+/* My attempt
+ * type MyPick<T, K> = { [key in K]: T[Key] }
+ */
 type MyPick<T, K extends keyof T> = { [Key in K]: T[Key] }
 
 /* _____________ Test Cases _____________ */
